@@ -1,0 +1,20 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.14225c90.min.css' | url }}">
+{% endblock %}
+{% block announce %}
+  <a href="https://space.bilibili.com/86398331">
+    去哔哩哔哩关注我 <strong>长颈鹿的选拔</strong> on
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/bilibili.svg" %}
+    </span>
+    <strong>bilibili</strong>
+  </a>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'overrides/assets/javascripts/bundle.1d33a92e.min.js' | url }}"></script>
+{% endblock %}
